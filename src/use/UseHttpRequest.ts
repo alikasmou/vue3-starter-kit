@@ -1,6 +1,6 @@
 import axios from "axios";
-const baseUrl = "http://localhost/api";
-// const baseUrl = "http://edusims.lclevels.com/api";
+// const baseUrl = "http://localhost/api";
+const baseUrl = "http://edusims.lclevels.com/api";
 const filterEndpoint = baseUrl + '/' + 'filter'
 const selectableEndpoint = baseUrl + '/' + 'selectable'
 //**==> [x][Done]

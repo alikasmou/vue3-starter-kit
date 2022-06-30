@@ -1,0 +1,2130 @@
+{
+	"info": {
+		"_postman_id": "a8ceaa60-91b6-4573-8b58-db450ce33963",
+		"name": "Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11105328"
+	},
+	"item": [
+		{
+			"name": "Filters",
+			"item": [
+				{
+					"name": "/api/filter/users",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{test}}/api/filter/users?filter[gender]=f&trashed=with",
+							"host": [
+								"{{test}}"
+							],
+							"path": [
+								"api",
+								"filter",
+								"users"
+							],
+							"query": [
+								{
+									"key": "filter[gender]",
+									"value": "f"
+								},
+								{
+									"key": "trashed",
+									"value": "with"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Tenants",
+			"item": []
+		},
+		{
+			"name": "OAuth",
+			"item": [
+				{
+					"name": "oauth/authorize",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{test}}/oauth/authorize",
+							"host": [
+								"{{test}}"
+							],
+							"path": [
+								"oauth",
+								"authorize"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "oauth/authorize",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{test}}/oauth/authorize",
+							"host": [
+								"{{test}}"
+							],
+							"path": [
+								"oauth",
+								"authorize"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "oauth/authorize",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{test}}/oauth/authorize",
+							"host": [
+								"{{test}}"
+							],
+							"path": [
+								"oauth",
+								"authorize"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "oauth/clients",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{test}}/oauth/clients",
+							"host": [
+								"{{test}}"
+							],
+							"path": [
+								"oauth",
+								"clients"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "oauth/clients",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{test}}/oauth/clients",
+							"host": [
+								"{{test}}"
+							],
+							"path": [
+								"oauth",
+								"clients"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "oauth/clients/{client_id}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{test}}/oauth/clients/{client_id}",
+							"host": [
+								"{{test}}"
+							],
+							"path": [
+								"oauth",
+								"clients",
+								"{client_id}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "oauth/clients/{client_id}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{test}}/oauth/clients/{client_id}",
+							"host": [
+								"{{test}}"
+							],
+							"path": [
+								"oauth",
+								"clients",
+								"{client_id}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "oauth/personal-access-tokens",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{test}}/oauth/personal-access-tokens",
+							"host": [
+								"{{test}}"
+							],
+							"path": [
+								"oauth",
+								"personal-access-tokens"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "oauth/personal-access-tokens",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{test}}/oauth/personal-access-tokens",
+							"host": [
+								"{{test}}"
+							],
+							"path": [
+								"oauth",
+								"personal-access-tokens"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "oauth/personal-access-tokens/{token_id}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{test}}/oauth/personal-access-tokens/{token_id}",
+							"host": [
+								"{{test}}"
+							],
+							"path": [
+								"oauth",
+								"personal-access-tokens",
+								"{token_id}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "oauth/scopes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{test}}/oauth/scopes",
+							"host": [
+								"{{test}}"
+							],
+							"path": [
+								"oauth",
+								"scopes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "oauth/token",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{test}}/oauth/token",
+							"host": [
+								"{{test}}"
+							],
+							"path": [
+								"oauth",
+								"token"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "oauth/token/refresh",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{test}}/oauth/token/refresh",
+							"host": [
+								"{{test}}"
+							],
+							"path": [
+								"oauth",
+								"token",
+								"refresh"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "oauth/tokens",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{test}}/oauth/tokens",
+							"host": [
+								"{{test}}"
+							],
+							"path": [
+								"oauth",
+								"tokens"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "oauth/tokens/{token_id}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{test}}/oauth/tokens/{token_id}",
+							"host": [
+								"{{test}}"
+							],
+							"path": [
+								"oauth",
+								"tokens",
+								"{token_id}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "sanctum/csrf-cookie",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{test}}/sanctum/csrf-cookie",
+							"host": [
+								"{{test}}"
+							],
+							"path": [
+								"sanctum",
+								"csrf-cookie"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "/api/users",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "javascript"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{test}}/api/users",
+							"host": [
+								"{{test}}"
+							],
+							"path": [
+								"api",
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/users",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\":\"5\",\n    \"uuid\" : \"a55eb767-19b4-4eb9-ae5d-f7de189b1d1c\",\n    \"username\" : \"editedusername12355121\",\n    \"phone\" : \"055515151541\",\n    \"email\" : \"editedit@gmail.com\",\n    \"gender\":\"m\",\n    \"date_of_birth\":\"1993-09-29\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{test}}/api/users",
+							"host": [
+								"{{test}}"
+							],
+							"path": [
+								"api",
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/users",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"phone\" : \"055515151541\",\n    \"email\" : \"editedit@gmail.com\",\n    \"gender\":\"m\",\n    \"date_of_birth\":null\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{test}}/api/users",
+							"host": [
+								"{{test}}"
+							],
+							"path": [
+								"api",
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/users/{userUuid}",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{test}}/api/users/8db1cd5e-b46b-405f-8e7f-42fff3d4cbfb",
+							"host": [
+								"{{test}}"
+							],
+							"path": [
+								"api",
+								"users",
+								"8db1cd5e-b46b-405f-8e7f-42fff3d4cbfb"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/users/restore",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"uuid\": \"9633a602-e82b-49b5-813d-7523bbd6e2d3\",\n    \"email\" : \"editedit@gmail.com\",\n    \"phone\" : \"055515151541\",\n    \"confirmation\": true\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{test}}/api/users/restore",
+							"host": [
+								"{{test}}"
+							],
+							"path": [
+								"api",
+								"users",
+								"restore"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/users/delete",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"uuid\" : \"94996023-d720-4bfb-abd4-f34b44a5418d\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{test}}/api/users/delete",
+							"host": [
+								"{{test}}"
+							],
+							"path": [
+								"api",
+								"users",
+								"delete"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/users/{userUuid}",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{test}}/api/users/2d05f99d-09d2-4a35-acb2-8a8f45adc57e",
+							"host": [
+								"{{test}}"
+							],
+							"path": [
+								"api",
+								"users",
+								"2d05f99d-09d2-4a35-acb2-8a8f45adc57e"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Accounts",
+			"item": [
+				{
+					"name": "Teachers",
+					"item": [
+						{
+							"name": "/api/accounts/teachers",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{test}}/api/accounts/teachers",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"accounts",
+										"teachers"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/accounts/teachers",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"id\": 1,\n    \"uuid\": \"83552679-d8a7-4a28-85b0-fa73c78ab4db\",\n    \"user_id\": 106,\n    \"official_name\": \"Edited 2 Brant Hayes\",\n    \"teacher_title\": \"Edited Title\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/accounts/teachers",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"accounts",
+										"teachers"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/accounts/teachers",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"user_id\": 50,\n    \"official_name\": \"2Store name\",\n    \"teacher_title\": \"2Store Title\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/accounts/teachers",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"accounts",
+										"teachers"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/accounts/teachers/{teacherId}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{test}}/api/accounts/teachers/3",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"accounts",
+										"teachers",
+										"3"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Admins",
+					"item": [
+						{
+							"name": "/api/accounts/admins",
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						},
+						{
+							"name": "/api/accounts/admins",
+							"request": {
+								"method": "POST",
+								"header": []
+							},
+							"response": []
+						},
+						{
+							"name": "/api/accounts/admins",
+							"request": {
+								"method": "PUT",
+								"header": []
+							},
+							"response": []
+						},
+						{
+							"name": "/api/accounts/admins",
+							"request": {
+								"method": "DELETE",
+								"header": []
+							},
+							"response": []
+						},
+						{
+							"name": "/api/accounts/admins/my-profile",
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						},
+						{
+							"name": "/api/accounts/admins/my-profile",
+							"request": {
+								"method": "PUT",
+								"header": []
+							},
+							"response": []
+						},
+						{
+							"name": "/api/accounts/admins/my-profile",
+							"request": {
+								"method": "DELETE",
+								"header": []
+							},
+							"response": []
+						},
+						{
+							"name": "/api/accounts/admins/my-profile/delete",
+							"request": {
+								"method": "DELETE",
+								"header": []
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Marketers",
+					"item": []
+				},
+				{
+					"name": "Students",
+					"item": []
+				}
+			]
+		},
+		{
+			"name": "Courses",
+			"item": [
+				{
+					"name": "Courses",
+					"item": [
+						{
+							"name": "/api/courses",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"label\":\"new course\",\n    \"course_level_id\":4,\n    \"course_type_id\":9\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/courses",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"courses"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/courses",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"label\":\"new course\",\n    \"course_level_id\":4,\n    \"course_type_id\":9\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/courses",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"courses"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/courses",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"id\" : 1,\n    \"label\":\"edited new course\",\n    \"course_level_id\":4,\n    \"course_type_id\":9\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/courses",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"courses"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/courses",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"id\": 3,\n    \"label\": \"domain-28\",\n    \"course_level_id\": 19,\n    \"course_type_id\": 9,\n    \"confirmation\" : true\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/courses",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"courses"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/courses/{courseId}",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/courses/3",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"courses",
+										"3"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Schedule",
+					"item": [
+						{
+							"name": "/api/courses/schedule/wizard",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"label\":\"new course\",\n    \"start_date\" : \"2022-07-29\",\n    \"finish_date\" : \"\",\n    \"teacher_id\" : 1,\n    \"course_id\" : 1,\n    \"sections\" :[\n        {\n            \"course_section_id\":1,\n            \"lessons\" :[\n                {\n                    \"course_lesson_id\" : 1,\n                    \"teacher_id\" : 2,\n                    \"start_date\" : \"2022-07-29\",\n                    \"start_time\" : \"2022-07-30 14:30\",\n                    \"finish_time\" : \"2022-07-30 14:30\"\n                },\n                {\n                    \"course_lesson_id\" : 2,\n                    \"teacher_id\" : 2,\n                    \"start_date\" : \"2022-07-30\",\n                    \"start_time\" : \"2022-07-30 14:30\",\n                    \"finish_time\" : \"2022-07-30 14:30\"\n                }\n            ]\n        },\n        {\n            \"course_section_id\":2,\n            \"lessons\" :[\n                {\n                    \"course_lesson_id\" : 4,\n                    \"teacher_id\" : 2,\n                    \"start_date\" : \"2022-07-29\",\n                    \"start_time\" : \"2022-07-30 14:30\",\n                    \"finish_time\" : \"2022-07-30 14:30\"\n                },\n                {\n                    \"course_lesson_id\" : 5,\n                    \"teacher_id\" : 2,\n                    \"start_date\" : \"2022-07-30\",\n                    \"start_time\" : \"2022-07-30 14:30\",\n                    \"finish_time\" : \"2022-07-30 14:30\"\n                }\n            ]\n        },\n        {\n            \"course_section_id\":3,\n            \"lessons\" :[\n                {\n                    \"course_lesson_id\" : 12,\n                    \"teacher_id\" : 2,\n                    \"start_date\" : \"2022-07-29\",\n                    \"start_time\" : \"2022-07-30 14:30\",\n                    \"finish_time\" : \"2022-07-30 14:30\"\n                },\n                {\n                    \"course_lesson_id\" : 20,\n                    \"teacher_id\" : 2,\n                    \"start_date\" : \"2022-08-15\",\n                    \"start_time\" : \"2022-07-30 14:30\",\n                    \"finish_time\" : \"2022-07-30 14:30\"\n                }\n            ]\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/courses/schedule/wizard",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"courses",
+										"schedule",
+										"wizard"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/courses/schedule",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"label\":\"new course\",\n    \"start_date\" : \"2022-07-29\",\n    \"finish_date\" : \"\",\n    \"teacher_id\" : 2,\n    \"course_id\" : 3\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/courses/schedule",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"courses",
+										"schedule"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/courses/schedule",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"id\": 4,\n    \"label\": \"edited new course\",\n    \"start_date\": \"2022-07-29\",\n    \"finish_date\": null,\n    \"teacher_id\": 1,\n    \"course_id\": 1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/courses/schedule",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"courses",
+										"schedule"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/courses/schedule",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"id\": 4,\n    \"label\": \"edited new course\",\n    \"start_date\": \"2022-07-29\",\n    \"finish_date\": null,\n    \"teacher_id\": 1,\n    \"course_id\": 1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/courses/schedule",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"courses",
+										"schedule"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/courses/schedule/{scheduleId}",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true,
+								"disabledSystemHeaders": {
+									"accept": true
+								}
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"label\":\"new course\",\n    \"start_date\" : \"2022-07-29\",\n    \"finish_date\" : \"\",\n    \"teacher_id\" : 1,\n    \"course_id\" : 1,\n    \"sections\" :[\n        {\n            \"course_section_id\":1,\n            \"lessons\" :[\n                {\n                    \"course_lesson_id\" : 1,\n                    \"teacher_id\" : 2,\n                    \"start_date\" : \"2022-07-29\",\n                    \"start_time\" : \"2022-07-30 14:30\",\n                    \"finish_time\" : \"2022-07-30 14:30\"\n                },\n                {\n                    \"course_lesson_id\" : 2,\n                    \"teacher_id\" : 2,\n                    \"start_date\" : \"2022-07-30\",\n                    \"start_time\" : \"2022-07-30 14:30\",\n                    \"finish_time\" : \"2022-07-30 14:30\"\n                }\n            ]\n        },\n        {\n            \"course_section_id\":2,\n            \"lessons\" :[\n                {\n                    \"course_lesson_id\" : 4,\n                    \"teacher_id\" : 2,\n                    \"start_date\" : \"2022-07-29\",\n                    \"start_time\" : \"2022-07-30 14:30\",\n                    \"finish_time\" : \"2022-07-30 14:30\"\n                },\n                {\n                    \"course_lesson_id\" : 5,\n                    \"teacher_id\" : 2,\n                    \"start_date\" : \"2022-07-30\",\n                    \"start_time\" : \"2022-07-30 14:30\",\n                    \"finish_time\" : \"2022-07-30 14:30\"\n                }\n            ]\n        },\n        {\n            \"course_section_id\":3,\n            \"lessons\" :[\n                {\n                    \"course_lesson_id\" : 12,\n                    \"teacher_id\" : 2,\n                    \"start_date\" : \"2022-07-29\",\n                    \"start_time\" : \"2022-07-30 14:30\",\n                    \"finish_time\" : \"2022-07-30 14:30\"\n                },\n                {\n                    \"course_lesson_id\" : 20,\n                    \"teacher_id\" : 2,\n                    \"start_date\" : \"2022-08-15\",\n                    \"start_time\" : \"2022-07-30 14:30\",\n                    \"finish_time\" : \"2022-07-30 14:30\"\n                }\n            ]\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/courses/schedule/5",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"courses",
+										"schedule",
+										"5"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Section",
+					"item": [
+						{
+							"name": "/api/courses/sections",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"label\":\"new course section 1\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/courses/sections",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"courses",
+										"sections"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/courses/sections",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/courses/sections",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"courses",
+										"sections"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/courses/sections",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"id\":102,\n    \"label\":\"edited new course section\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/courses/sections",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"courses",
+										"sections"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/courses/sections",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"id\":103,\n    \"label\":\"new course\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/courses/sections",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"courses",
+										"sections"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/courses/sections/{courseSectionId}",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/courses/sections/2",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"courses",
+										"sections",
+										"2"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Lessons",
+					"item": [
+						{
+							"name": "/api/courses/lessons",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"label\":\"new course lesson\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/courses/lessons",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"courses",
+										"lessons"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/courses/lessons",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"label\":\"new course lesson\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/courses/lessons",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"courses",
+										"lessons"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/courses/lessons",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"id\": 3,\n    \"label\": \"edited lesson -70\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/courses/lessons",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"courses",
+										"lessons"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/courses/lessons",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"id\": 3,\n    \"label\": \"edited lesson -70\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/courses/lessons",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"courses",
+										"lessons"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/courses/lessons/{courseLessonId}",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/courses/lessons/2",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"courses",
+										"lessons",
+										"2"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Levels",
+					"item": [
+						{
+							"name": "/api/courses/levels",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"label\":\"new course levels\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/courses/levels",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"courses",
+										"levels"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/courses/levels",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/courses/levels",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"courses",
+										"levels"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/courses/levels",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"id\": 1,\n    \"label\": \"level-5\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/courses/levels",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"courses",
+										"levels"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/courses/levels",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"id\": 1,\n    \"label\": \"level-5\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/courses/levels",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"courses",
+										"levels"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/courses/levels/{courseLevelId}",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"label\":\"new course levels\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/courses/levels/2",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"courses",
+										"levels",
+										"2"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Types",
+					"item": [
+						{
+							"name": "/api/courses/types",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"label\":\"new course type\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/courses/types",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"courses",
+										"types"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/courses/types",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/courses/types",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"courses",
+										"types"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/courses/types",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"id\": 6,\n    \"label\": \"edited type-10\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/courses/types",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"courses",
+										"types"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/courses/types",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"id\": 6,\n    \"label\": \"edited type-10\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/courses/types",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"courses",
+										"types"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/courses/types/{courseTypeId}",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/courses/types/8",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"courses",
+										"types",
+										"8"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Assignments",
+			"item": [
+				{
+					"name": "Assignments",
+					"item": [
+						{
+							"name": "/api/assignments",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{test}}/api/assignments",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"assignments"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/assignments",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"assignment_template_id\": 20,\n    \"teacher_id\": 15,\n    \"course_schedule_id\": 5,\n    \"deadline\": \"2022-06-26 13:06:00\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/assignments",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"assignments"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/assignments",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"id\": 2,\n    \"assignment_template_id\": 20,\n    \"teacher_id\": 15,\n    \"course_schedule_id\": 5\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/assignments",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"assignments"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/assignments",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"id\": 3,\n    \"assignment_template_id\": 3,\n    \"teacher_id\": 5,\n    \"course_schedule_id\": 29\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/assignments",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"assignments"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/assignments/{assignmentId}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{test}}/api/assignments/6",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"assignments",
+										"6"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Templates",
+					"item": [
+						{
+							"name": "/api/assignments/templates",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{test}}/api/assignments/templates",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"assignments",
+										"templates"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/assignments/templates",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"label\" : \"Assignment Template 1\",\n    \"description\" : \"description here\",\n    \"duration\" : \"12\",\n    \"duration_unit\" : \"days\",\n    \"difficulty\" : 0,\n    \"assignment_score\" : \"D\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/assignments/templates",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"assignments",
+										"templates"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/assignments/templates",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{test}}/api/assignments/templates",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"assignments",
+										"templates"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/assignments/templates",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{test}}/api/assignments/templates",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"assignments",
+										"templates"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/assignments/templates/{assignmentTemplateId}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{test}}/api/assignments/templates/2",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"assignments",
+										"templates",
+										"2"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Misisons",
+					"item": [
+						{
+							"name": "/api/assignments/missions",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{test}}/api/assignments/missions",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"assignments",
+										"missions"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/assignments/missions",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{test}}/api/assignments/missions",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"assignments",
+										"missions"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/assignments/missions",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"id\": 61,\n    \"assignment_template_id\" : 2,\n    \"label\" : \"edit new label\",\n    \"description\" : \"new description\",\n    \"mission_score\" : \"p\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/assignments/missions",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"assignments",
+										"missions"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/assignments/missions",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"id\": 61,\n    \"assignment_template_id\" : 2,\n    \"label\" : \"edit new label\",\n    \"description\" : \"new description\",\n    \"mission_score\" : \"p\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{test}}/api/assignments/missions",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"assignments",
+										"missions"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/assignments/missions/{assignmentMissionId}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{test}}/api/assignments/missions/6",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"assignments",
+										"missions",
+										"6"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Submisisons",
+					"item": [
+						{
+							"name": "/api/assignments/submissions",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{test}}/api/assignments/submissions",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"assignments",
+										"submissions"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/assignments/submissions",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{test}}/api/assignments/submissions",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"assignments",
+										"submissions"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/assignments/submissions",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{test}}/api/assignments/submissions",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"assignments",
+										"submissions"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/assignments/submissions",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{test}}/api/assignments/submissions",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"assignments",
+										"submissions"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/api/assignments/submissions/{assignmentSubmissionId}",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{test}}/api/assignments/submissions/1",
+									"host": [
+										"{{test}}"
+									],
+									"path": [
+										"api",
+										"assignments",
+										"submissions",
+										"1"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}

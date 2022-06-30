@@ -1,0 +1,316 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*======> START:Rest */
+.MainSidear .v-list {
+  @apply !tw-py-0;
+}
+.MainSidear .v-list-group__items .v-list-item {
+  -webkit-padding-start: calc(0 + var(--indent-padding)) !important;
+  padding-inline-start: calc(0 + var(--indent-padding)) !important;
+  @apply tw-ml-[8px];
+}
+.MainSidear .v-list-item--nav .v-list-item-title {
+  @apply tw-pl-2;
+}
+.MainSidear .v-navigation-drawer__content {
+  @apply tw-overflow-hidden;
+}
+.v-icon--size-default {
+  font-size: calc(var(--v-icon-size-multiplier) * 1rem);
+}
+.MainSidear .v-icon--size-default {
+  font-size: calc(var(--v-icon-size-multiplier) * 0.5rem);
+}
+#FooterMenu .v-icon--size-default {
+  font-size: calc(var(--v-icon-size-multiplier) * 1.3rem);
+}
+.MainSidear .v-list-item-icon--start {
+  -webkit-margin-end: 0;
+  margin-inline-end: 0;
+}
+.MainSidear .v-list-item-title {
+  @apply tw-capitalize tw-text-white/80 hover:tw-text-white;
+}
+.no-scroll::-webkit-scrollbar {
+  @apply tw-hidden;
+}
+.no-scroll {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.StaticMenuItem {
+  @apply !tw-text-white tw-text-sm;
+}
+.v-field__input {
+  @apply !tw-text-sm;
+}
+/*======> END:Rest */
+
+/*======> START:Transitions */
+.slide-fade-enter-active {
+  @apply tw-transition-all tw-ease-in-out tw-duration-700 tw-delay-100;
+}
+.slide-fade-leave-active {
+  transition: all 0s cubic-bezier(1, 0.5, 0.5, 1);
+}
+.slide-fade-enter-from,
+.slide-fade-leave-to {
+  @apply tw-translate-y-2 tw-opacity-0;
+}
+.hover-effect {
+  @apply tw-ease-in-out tw-duration-500 tw-transition-all tw-delay-100;
+}
+/*======> END:Transitions */
+
+/*======> START:customize scrollbar css  */
+.scrollbar {
+  @apply tw-w-full tw-max-w-full tw-overflow-y-scroll;
+}
+.custom-scrollbar::-webkit-scrollbar {
+  @apply tw-bg-brand-light tw-w-2 tw-border-none;
+}
+.custom-scrollbar::-webkit-scrollbar:horizontal {
+  @apply tw-w-2;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  @apply tw-border-none;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  @apply tw-bg-brand-dark/60 tw-transition-all tw-ease-in-out tw-duration-700 hover:tw-bg-brand-dark active:tw-bg-brand-dark;
+}
+/*======> END:customize scrollbar css  */
+
+/*======> START:Pre-Render for dynamic classes */
+body {
+  font-family: "Open Sans";
+  font-size: 1rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans";
+  font-weight: 500;
+}
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2.25rem;
+}
+h4 {
+  font-size: 2rem;
+}
+h5 {
+  font-size: 1.5rem;
+}
+h6 {
+  font-size: 1.25rem;
+}
+.loadClasses {
+  @apply sm:tw-col-start-1 md:tw-col-start-1 lg:tw-col-start-1 xl:tw-col-start-1 2xl:tw-col-start-1
+  sm:tw-col-start-2 md:tw-col-start-2 lg:tw-col-start-2 xl:tw-col-start-2 2xl:tw-col-start-2
+  sm:tw-col-start-3 md:tw-col-start-3 lg:tw-col-start-3 xl:tw-col-start-3 2xl:tw-col-start-3
+  sm:tw-col-start-4 md:tw-col-start-4 lg:tw-col-start-4 xl:tw-col-start-4 2xl:tw-col-start-4
+  sm:tw-col-start-5 md:tw-col-start-5 lg:tw-col-start-5 xl:tw-col-start-5 2xl:tw-col-start-5
+  sm:tw-col-start-6 md:tw-col-start-6 lg:tw-col-start-6 xl:tw-col-start-6 2xl:tw-col-start-6
+  sm:tw-col-start-7 md:tw-col-start-7 lg:tw-col-start-7 xl:tw-col-start-7 2xl:tw-col-start-7
+  sm:tw-col-start-8 md:tw-col-start-8 lg:tw-col-start-8 xl:tw-col-start-8 2xl:tw-col-start-8
+  sm:tw-col-start-9 md:tw-col-start-9 lg:tw-col-start-9 xl:tw-col-start-9 2xl:tw-col-start-9
+  sm:tw-col-start-10 md:tw-col-start-10 lg:tw-col-start-10 xl:tw-col-start-10 2xl:tw-col-start-10
+  sm:tw-col-start-11 md:tw-col-start-11 lg:tw-col-start-11 xl:tw-col-start-11 2xl:tw-col-start-11
+  sm:tw-col-start-12 md:tw-col-start-12 lg:tw-col-start-12 xl:tw-col-start-12 2xl:tw-col-start-12
+  sm:tw-col-end-1 md:tw-col-end-1 lg:tw-col-end-1 xl:tw-col-end-1 2xl:tw-col-end-1
+  sm:tw-col-end-2 md:tw-col-end-2 lg:tw-col-end-2 xl:tw-col-end-2 2xl:tw-col-end-2
+  sm:tw-col-end-3 md:tw-col-end-3 lg:tw-col-end-3 xl:tw-col-end-3 2xl:tw-col-end-3
+  sm:tw-col-end-4 md:tw-col-end-4 lg:tw-col-end-4 xl:tw-col-end-4 2xl:tw-col-end-4
+  sm:tw-col-end-5 md:tw-col-end-5 lg:tw-col-end-5 xl:tw-col-end-5 2xl:tw-col-end-5
+  sm:tw-col-end-6 md:tw-col-end-6 lg:tw-col-end-6 xl:tw-col-end-6 2xl:tw-col-end-6
+  sm:tw-col-end-7 md:tw-col-end-7 lg:tw-col-end-7 xl:tw-col-end-7 2xl:tw-col-end-7
+  sm:tw-col-end-8 md:tw-col-end-8 lg:tw-col-end-8 xl:tw-col-end-8 2xl:tw-col-end-8
+  sm:tw-col-end-9 md:tw-col-end-9 lg:tw-col-end-9 xl:tw-col-end-9 2xl:tw-col-end-9
+  sm:tw-col-end-10 md:tw-col-end-10 lg:tw-col-end-10 xl:tw-col-end-10 2xl:tw-col-end-10
+  sm:tw-col-end-11 md:tw-col-end-11 lg:tw-col-end-11 xl:tw-col-end-11 2xl:tw-col-end-11
+  sm:tw-col-end-12 md:tw-col-end-12 lg:tw-col-end-12 xl:tw-col-end-12 2xl:tw-col-end-12
+  sm:tw-col-end-13 md:tw-col-end-13 lg:tw-col-end-13 xl:tw-col-end-13 2xl:tw-col-end-13;
+}
+.gap-1 {
+  @apply tw-gap-1;
+}
+.gap-2 {
+  @apply tw-gap-2;
+}
+.gap-4 {
+  @apply tw-gap-4;
+}
+.gap-6 {
+  @apply tw-gap-6;
+}
+.cols-1 {
+  @apply tw-grid-cols-1;
+}
+.cols-2 {
+  @apply tw-grid-cols-2;
+}
+.cols-3 {
+  @apply tw-grid-cols-3;
+}
+.cols-4 {
+  @apply tw-grid-cols-4;
+}
+.cols-5 {
+  @apply tw-grid-cols-5;
+}
+.cols-6 {
+  @apply tw-grid-cols-6;
+}
+.cols-7 {
+  @apply tw-grid-cols-7;
+}
+.cols-8 {
+  @apply tw-grid-cols-8;
+}
+.cols-9 {
+  @apply tw-grid-cols-9;
+}
+.cols-10 {
+  @apply tw-grid-cols-10;
+}
+.cols-11 {
+  @apply tw-grid-cols-11;
+}
+.cols-12 {
+  @apply tw-grid-cols-12;
+}
+.col-1 {
+  @apply tw-col-span-1;
+}
+.col-2 {
+  @apply tw-col-span-2;
+}
+.col-3 {
+  @apply tw-col-span-3;
+}
+.col-4 {
+  @apply tw-col-span-4;
+}
+.col-5 {
+  @apply tw-col-span-5;
+}
+.col-6 {
+  @apply tw-col-span-6;
+}
+.col-7 {
+  @apply tw-col-span-7;
+}
+.col-8 {
+  @apply tw-col-span-8;
+}
+.col-9 {
+  @apply tw-col-span-9;
+}
+.col-10 {
+  @apply tw-col-span-10;
+}
+.col-11 {
+  @apply tw-col-span-11;
+}
+.col-12 {
+  @apply tw-col-span-12;
+}
+.start-1 {
+  @apply tw-col-start-1;
+}
+.start-2 {
+  @apply tw-col-start-2;
+}
+.start-3 {
+  @apply tw-col-start-3;
+}
+.start-4 {
+  @apply tw-col-start-4;
+}
+.start-5 {
+  @apply tw-col-start-5;
+}
+.start-6 {
+  @apply tw-col-start-6;
+}
+.start-7 {
+  @apply tw-col-start-7;
+}
+.start-8 {
+  @apply tw-col-start-8;
+}
+.start-9 {
+  @apply tw-col-start-9;
+}
+.start-10 {
+  @apply tw-col-start-10;
+}
+.start-11 {
+  @apply tw-col-start-11;
+}
+.start-12 {
+  @apply tw-col-start-12;
+}
+.end-2 {
+  @apply tw-col-end-2;
+}
+.end-3 {
+  @apply tw-col-end-3;
+}
+.end-4 {
+  @apply tw-col-end-4;
+}
+.end-5 {
+  @apply tw-col-end-5;
+}
+.end-6 {
+  @apply tw-col-end-6;
+}
+.end-7 {
+  @apply tw-col-end-7;
+}
+.end-8 {
+  @apply tw-col-end-8;
+}
+.end-9 {
+  @apply tw-col-end-9;
+}
+.end-10 {
+  @apply tw-col-end-10;
+}
+.end-11 {
+  @apply tw-col-end-11;
+}
+.end-12 {
+  @apply tw-col-end-12;
+}
+.end-13 {
+  @apply tw-col-end-13;
+}
+.male {
+  border: solid 2px rgba(14, 165, 233, 0.4);
+  -webkit-box-shadow: 0px 0px 20px -6px #0ea5e9;
+  box-shadow: 0px 0px 20px -6px #0ea5e9;
+}
+.female {
+  border: solid 2px rgba(232, 121, 249, 0.4);
+  -webkit-box-shadow: 0px 0px 20px -6px #e879f9;
+  box-shadow: 0px 0px 20px -6px #e879f9;
+}
+.btn-primary.btn-block {
+  @apply tw-px-6 tw-py-2.5 tw-bg-blue-600 tw-text-white tw-font-medium tw-text-xs tw-leading-tight tw-uppercase tw-rounded tw-shadow-md hover:tw-bg-blue-700 hover:tw-shadow-lg focus:tw-bg-blue-700 focus:tw-shadow-lg focus:tw-outline-none focus:tw-ring-0 active:tw-bg-blue-800 active:tw-shadow-lg tw-transition tw-duration-150 tw-ease-in-out;
+}
+.btn-primary.btn-outlined {
+  @apply tw-px-6 tw-py-2 tw-border-2 tw-border-blue-600 tw-text-blue-600 tw-font-medium tw-text-xs tw-leading-tight tw-uppercase tw-rounded hover:tw-bg-black hover:tw-bg-opacity-5 focus:tw-outline-none focus:tw-ring-0 tw-transition tw-duration-150 tw-ease-in-out;
+}
+/*======> END:Pre-Render for dynamic classes  */
